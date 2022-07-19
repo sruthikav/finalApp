@@ -3,7 +3,8 @@
 //  finalApp
 //
 //  Created by Sruthi Kavuri on 7/19/22.
-//
+
+// this is the project for our kwk app 
 
 import UIKit
 
