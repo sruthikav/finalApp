@@ -23,6 +23,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZr-1H-AHC">
+                                <rect key="frame" x="107" y="764" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="jzq-Ik-roc">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="X3H-dY-yRg">
+                                                <color key="tintColor" systemColor="tintColor"/>
+                                                <connections>
+                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="E2y-AC-A2b"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="sc9-Yk-Q9D">
+                                                <connections>
+                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="SK8-W5-9iM"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="bWr-F5-Yib"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iu2-5Q-G8o"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -40,6 +66,45 @@
                     <view key="view" contentMode="scaleToFill" id="Ldo-aT-J9d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1S-aF-I5a">
+                                <rect key="frame" x="107" y="818" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="qhZ-ik-9Ig">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="t9Q-dc-paG">
+                                                <color key="tintColor" systemColor="tintColor"/>
+                                                <connections>
+                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="l2M-Nj-V2B"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="9XA-L0-geb">
+                                                <connections>
+                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="Umc-Xv-ONq"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="Yfb-bb-C4v">
+                                            <connections>
+                                                <segue destination="fq3-LO-cfV" kind="presentation" modalPresentationStyle="fullScreen" id="lO6-V5-7eN"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1O-Dt-7vE">
+                                <rect key="frame" x="186" y="304" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="B9C-3A-vDk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -51,7 +116,6 @@
         <!--JOURNAL-->
         <scene sceneID="8cg-LN-j6m">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="fq3-LO-cfV" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0mj-3K-40I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -80,6 +144,7 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2987" y="84"/>
         </scene>
@@ -116,23 +181,22 @@
         <!--View Controller-->
         <scene sceneID="6wy-aU-Ja0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zIt-xe-IK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="NME-YG-DNo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pYM-JW-DOs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Xcs-VC-I1M"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="0g8-Sc-yzl"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zIt-xe-IK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2972" y="745"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PHj-J0-9FU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HMR-UJ-qTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="mhs-tO-itJ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eqo-wM-IIu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -142,6 +206,7 @@
                         <segue destination="fq3-LO-cfV" kind="relationship" relationship="rootViewController" id="vad-LP-Jb2"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMR-UJ-qTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2101" y="84"/>
         </scene>
@@ -193,7 +258,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.88952377187303633" green="0.92297979797979801" blue="0.7959117863463363" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.45723118822787523" green="0.8570009940220441" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
@@ -216,6 +281,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-OD-CbI">
+                                <rect key="frame" x="107" y="764" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="syV-a6-LJk">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="Z3A-fR-sGW">
+                                                <color key="tintColor" systemColor="tintColor"/>
+                                                <connections>
+                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="Dax-Wi-Ofj"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="wOS-F6-VYW">
+                                                <connections>
+                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="bCZ-TU-nWO"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="QgJ-mI-t6d"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F6N-KP-7RR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -241,6 +332,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OZE-ye-03o">
+                                <rect key="frame" x="107" y="764" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="WN5-Fb-wKD">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="H2l-sg-w81">
+                                                <color key="tintColor" systemColor="tintColor"/>
+                                                <connections>
+                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="WHn-Cl-BKd"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="iZW-Ad-mxv">
+                                                <connections>
+                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="2Hd-xL-rfL"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="5YB-lb-YKE"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Vd-b1-t0p"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -266,6 +383,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3T-hY-r63">
+                                <rect key="frame" x="107" y="764" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="KP3-Wz-pxm">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="8b0-QL-ui8">
+                                                <color key="tintColor" systemColor="tintColor"/>
+                                                <connections>
+                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="GBs-NV-RIE"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="vhd-Vm-Ihs">
+                                                <connections>
+                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="Ksq-AC-z5m"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="GaP-Vr-Diu"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8qo-fx-xgQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -367,34 +510,35 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar-date-event-month-icon--19" translatesAutoresizingMaskIntoConstraints="NO" id="Sb4-HH-0q1">
-                                <rect key="frame" x="62" y="736" width="43" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="420338-200" translatesAutoresizingMaskIntoConstraints="NO" id="9Tf-gs-9UC">
-                                <rect key="frame" x="310" y="740" width="62" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" translatesAutoresizingMaskIntoConstraints="NO" id="y9f-7y-KjG">
-                                <rect key="frame" x="12" y="694" width="65" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGA-Rs-JJB">
-                                <rect key="frame" x="0.0" y="812" width="414" height="44"/>
+                                <rect key="frame" x="111" y="818" width="201" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
                                 <items>
-                                    <navigationItem title="Title" id="hW2-Cf-ebr">
+                                    <navigationItem id="hW2-Cf-ebr">
                                         <leftBarButtonItems>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--19" id="OfW-DR-agB"/>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--19" id="fOZ-TO-ySR"/>
+                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="OfW-DR-agB">
+                                                <color key="tintColor" systemColor="tintColor"/>
+                                                <connections>
+                                                    <segue destination="jtE-OB-Ugj" kind="show" id="GBr-PW-rev"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="fOZ-TO-ySR">
+                                                <connections>
+                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="zPX-ap-aIV"/>
+                                                </connections>
+                                            </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="w5x-sr-XhM"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="w5x-sr-XhM"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="huZ-JC-TWy"/>
-                        <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihL-KP-AYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -402,16 +546,24 @@
             <point key="canvasLocation" x="415.94202898550731" y="95.758928571428569"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="l2M-Nj-V2B"/>
+        <segue reference="lO6-V5-7eN"/>
+        <segue reference="SK8-W5-9iM"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" width="980" height="670"/>
-        <image name="420338-200" width="200" height="200"/>
-        <image name="calendar-date-event-month-icon--19" width="320" height="320"/>
+        <image name="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" width="40" height="27"/>
+        <image name="420338-200" width="30" height="30"/>
+        <image name="calendar-date-event-month-icon--20" width="30" height="30"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
