@@ -51,6 +51,7 @@
         <!--JOURNAL-->
         <scene sceneID="8cg-LN-j6m">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="fq3-LO-cfV" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0mj-3K-40I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -79,7 +80,6 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2987" y="84"/>
         </scene>
@@ -90,17 +90,33 @@
                     <view key="view" contentMode="scaleToFill" id="QC3-pF-ojK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Journal your thoughts here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKX-Ho-fg7">
+                                <rect key="frame" x="102" y="257" width="210" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="type here..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hJh-70-brv">
+                                <rect key="frame" x="57" y="350" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3iS-x6-cqv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1w-Vk-MDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3788" y="75"/>
+            <point key="canvasLocation" x="3786.9565217391309" y="75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6wy-aU-Ja0">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zIt-xe-IK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="NME-YG-DNo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pYM-JW-DOs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -110,13 +126,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="0g8-Sc-yzl"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zIt-xe-IK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2972" y="745"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PHj-J0-9FU">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMR-UJ-qTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="mhs-tO-itJ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eqo-wM-IIu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -126,7 +142,6 @@
                         <segue destination="fq3-LO-cfV" kind="relationship" relationship="rootViewController" id="vad-LP-Jb2"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HMR-UJ-qTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2101" y="84"/>
         </scene>
@@ -178,7 +193,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.92297979797979801" green="0.91424282543905455" blue="0.81181989982663416" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.88952377187303633" green="0.92297979797979801" blue="0.7959117863463363" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.45723118822787523" green="0.8570009940220441" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
@@ -379,7 +394,7 @@
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="huZ-JC-TWy"/>
-                        <color key="backgroundColor" red="0.92297979799999996" green="0.91424282540000001" blue="0.81181989980000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihL-KP-AYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
