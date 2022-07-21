@@ -16,6 +16,7 @@
 		89A08B3228872A590065A088 /* finalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89A08B3028872A590065A088 /* finalApp.xcdatamodeld */; };
 		89A08B3428872A5C0065A088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A08B3328872A5C0065A088 /* Assets.xcassets */; };
 		89A08B3728872A5C0065A088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A08B3528872A5C0065A088 /* LaunchScreen.storyboard */; };
+		BD1022322889FAEA00CC9A6F /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1022312889FAEA00CC9A6F /* MeditationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		89A08B3328872A5C0065A088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A08B3628872A5C0065A088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A08B3828872A5C0065A088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1022312889FAEA00CC9A6F /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				89A08B2B28872A590065A088 /* ViewController.swift */,
 				894573A22889D5DE00A51722 /* TrackerTableViewController.swift */,
 				894573A42889D61100A51722 /* RecordWorkoutViewController.swift */,
+				BD1022312889FAEA00CC9A6F /* MeditationViewController.swift */,
 				89A08B2D28872A590065A088 /* Main.storyboard */,
 				89A08B3328872A5C0065A088 /* Assets.xcassets */,
 				89A08B3528872A5C0065A088 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				89A08B3228872A590065A088 /* finalApp.xcdatamodeld in Sources */,
 				89A08B2C28872A590065A088 /* ViewController.swift in Sources */,
 				89A08B2828872A590065A088 /* AppDelegate.swift in Sources */,
+				BD1022322889FAEA00CC9A6F /* MeditationViewController.swift in Sources */,
 				89A08B2A28872A590065A088 /* SceneDelegate.swift in Sources */,
 				894573A52889D61100A51722 /* RecordWorkoutViewController.swift in Sources */,
 			);
