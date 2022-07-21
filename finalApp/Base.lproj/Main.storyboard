@@ -9,157 +9,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="dgJ-Ta-PEb">
-            <objects>
-                <viewController id="0zc-Qx-mIX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rem-VQ-tte">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IRON LEGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inj-lf-NXL">
-                                <rect key="frame" x="144" y="170" width="423" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZr-1H-AHC">
-                                <rect key="frame" x="107" y="764" width="201" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem id="jzq-Ik-roc">
-                                        <leftBarButtonItems>
-                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="X3H-dY-yRg">
-                                                <color key="tintColor" systemColor="tintColor"/>
-                                                <connections>
-                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="E2y-AC-A2b"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="sc9-Yk-Q9D">
-                                                <connections>
-                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="SK8-W5-9iM"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="bWr-F5-Yib">
-                                            <connections>
-                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="37X-Fm-fu7"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="iu2-5Q-G8o"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="pUN-L2-SYy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q6Z-kc-7Qb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2599" y="-838"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lr6-Dd-EZW">
-            <objects>
-                <viewController id="cWH-EJ-mOt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ldo-aT-J9d">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1S-aF-I5a">
-                                <rect key="frame" x="107" y="818" width="201" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem id="qhZ-ik-9Ig">
-                                        <leftBarButtonItems>
-                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="t9Q-dc-paG">
-                                                <color key="tintColor" systemColor="tintColor"/>
-                                                <connections>
-                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="l2M-Nj-V2B"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="9XA-L0-geb">
-                                                <connections>
-                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="Umc-Xv-ONq"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="Yfb-bb-C4v">
-                                            <connections>
-                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="MaL-gF-NAU"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1O-Dt-7vE">
-                                <rect key="frame" x="186" y="304" width="57" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="B9C-3A-vDk"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GqW-62-uF3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1183" y="96"/>
-        </scene>
-        <!--JOURNAL-->
-        <scene sceneID="8cg-LN-j6m">
-            <objects>
-                <tableViewController id="fq3-LO-cfV" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0mj-3K-40I">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="cri-0A-NgJ">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cri-0A-NgJ" id="MMw-iS-70v">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="fq3-LO-cfV" id="Lnj-Hx-E8d"/>
-                            <outlet property="delegate" destination="fq3-LO-cfV" id="usk-4B-BW9"/>
-                        </connections>
-                    </tableView>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="JOURNAL" id="arf-w0-sc3">
-                        <barButtonItem key="leftBarButtonItem" title="back" id="d3G-5W-G45">
-                            <connections>
-                                <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="ObW-kd-Ice"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="EZY-xc-yjG">
-                            <connections>
-                                <segue destination="klM-n6-a7D" kind="show" id="aYA-Ja-bWX"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2987" y="84"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="GfO-rl-eZC">
             <objects>
                 <viewController id="klM-n6-a7D" sceneMemberID="viewController">
@@ -185,9 +34,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="submit your entry!"/>
-                                <connections>
-                                    <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="0U2-1d-7fN"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BUBBLES" translatesAutoresizingMaskIntoConstraints="NO" id="mNL-Wp-gqA">
                                 <rect key="frame" x="0.0" y="119" width="101" height="101"/>
@@ -209,54 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1w-Vk-MDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3786.9565217391309" y="75"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6wy-aU-Ja0">
-            <objects>
-                <viewController id="NME-YG-DNo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pYM-JW-DOs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Xcs-VC-I1M"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="0g8-Sc-yzl"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zIt-xe-IK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2972" y="745"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="PHj-J0-9FU">
-            <objects>
-                <navigationController id="mhs-tO-itJ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eqo-wM-IIu">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="fq3-LO-cfV" kind="relationship" relationship="rootViewController" id="vad-LP-Jb2"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HMR-UJ-qTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2101" y="84"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="4ep-TQ-70R">
-            <objects>
-                <viewController id="qnY-ob-pdc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="EoV-Y2-kn6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Rke-W0-1O0"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7N-eM-6c2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3719" y="-668"/>
+            <point key="canvasLocation" x="3768" y="-600"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -309,179 +108,6 @@
             <point key="canvasLocation" x="-378.26086956521743" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="WSG-BJ-ulS">
-            <objects>
-                <viewController id="xfk-xA-EOk" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="LdU-Uz-PjB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MEDITATION IS AWESOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZM7-cq-def">
-                                <rect key="frame" x="20" y="199" width="423" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-OD-CbI">
-                                <rect key="frame" x="107" y="764" width="201" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem id="syV-a6-LJk">
-                                        <leftBarButtonItems>
-                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="Z3A-fR-sGW">
-                                                <color key="tintColor" systemColor="tintColor"/>
-                                                <connections>
-                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="Dax-Wi-Ofj"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="wOS-F6-VYW">
-                                                <connections>
-                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="bCZ-TU-nWO"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="QgJ-mI-t6d">
-                                            <connections>
-                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="xeo-j9-p5h"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9611" translatesAutoresizingMaskIntoConstraints="NO" id="71y-F5-y0R">
-                                <rect key="frame" x="37" y="385" width="340" height="289"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozf-IV-MKF">
-                                <rect key="frame" x="47" y="395" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="F6N-KP-7RR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="KXQ-Tb-sD4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6IZ-Hb-11J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-520.28985507246375" y="-838.39285714285711"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lqR-aa-OvH">
-            <objects>
-                <viewController id="on8-Y0-ahc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ron-2W-Pce">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="READY FOR BUFF ARMS?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Y6-8X-YeK">
-                                <rect key="frame" x="41" y="205" width="423" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OZE-ye-03o">
-                                <rect key="frame" x="107" y="764" width="201" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem id="WN5-Fb-wKD">
-                                        <leftBarButtonItems>
-                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="H2l-sg-w81">
-                                                <color key="tintColor" systemColor="tintColor"/>
-                                                <connections>
-                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="WHn-Cl-BKd"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="iZW-Ad-mxv">
-                                                <connections>
-                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="2Hd-xL-rfL"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="5YB-lb-YKE">
-                                            <connections>
-                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="iIi-O7-24C"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="3Vd-b1-t0p"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="G4i-wJ-2Yf"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B1w-pS-sh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="614" y="-838"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="laQ-jn-FSy">
-            <objects>
-                <viewController id="u4U-dd-JK4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Vhk-Sh-uof">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ABS FOR DAYS " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0b-lm-C6n">
-                                <rect key="frame" x="51" y="157" width="423" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3T-hY-r63">
-                                <rect key="frame" x="106" y="764" width="201" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98521455499999999" green="1" blue="0.89447894939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.45723118820000003" green="0.85700099399999996" blue="0.95994074330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem id="KP3-Wz-pxm">
-                                        <leftBarButtonItems>
-                                            <barButtonItem title="Item" image="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" id="8b0-QL-ui8">
-                                                <color key="tintColor" systemColor="tintColor"/>
-                                                <connections>
-                                                    <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="GBs-NV-RIE"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="vhd-Vm-Ihs">
-                                                <connections>
-                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="Ksq-AC-z5m"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="GaP-Vr-Diu">
-                                            <connections>
-                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="NM1-S4-RFH"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="8qo-fx-xgQ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="004-Ip-3Kd"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GWe-7X-af2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1691" y="-838"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="KVi-kU-oy1">
             <objects>
                 <viewController id="jtE-OB-Ugj" sceneMemberID="viewController">
@@ -499,9 +125,6 @@
                                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="xfk-xA-EOk" kind="show" id="Klo-1A-mLj"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJ3-jf-5tq">
                                 <rect key="frame" x="122" y="296" width="169" height="209"/>
@@ -514,7 +137,7 @@
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="u4U-dd-JK4" kind="show" id="qCC-55-xs0"/>
+                                    <segue destination="mAN-Pm-nhH" kind="presentation" modalPresentationStyle="fullScreen" id="H83-7t-vvr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QU-ZJ-trj">
@@ -528,7 +151,7 @@
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="on8-Y0-ahc" kind="show" id="iEX-Bd-8tw"/>
+                                    <segue destination="aNY-CL-GYs" kind="presentation" modalPresentationStyle="fullScreen" id="Htu-ph-Um8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCL-ge-4T7">
@@ -550,7 +173,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="0zc-Qx-mIX" kind="show" id="f2E-pf-1pE"/>
+                                    <segue destination="LbS-zV-iN6" kind="presentation" modalPresentationStyle="fullScreen" id="WOh-4g-NXy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdR-Ne-Ndt">
@@ -571,6 +194,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="LbS-zV-iN6" kind="presentation" modalPresentationStyle="fullScreen" id="nI5-h7-yWl"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGA-Rs-JJB">
                                 <rect key="frame" x="111" y="818" width="201" height="44"/>
@@ -590,21 +216,17 @@
                                             </barButtonItem>
                                             <barButtonItem title="Item" image="calendar-date-event-month-icon--20" id="fOZ-TO-ySR">
                                                 <connections>
-                                                    <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="zPX-ap-aIV"/>
+                                                    <segue destination="Xai-5W-IkL" kind="presentation" modalPresentationStyle="fullScreen" id="8ZM-3h-dXW"/>
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="w5x-sr-XhM">
-                                            <connections>
-                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="RL8-5O-v3I"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="w5x-sr-XhM"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="huZ-JC-TWy"/>
-                        <color key="backgroundColor" red="0.96822148561477661" green="0.94899803400039673" blue="0.88197964429855347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihL-KP-AYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -685,7 +307,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="prV-oC-lzj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.84805976963249208" green="0.95534036737938499" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Re-e4-Kjt"/>
                 </viewController>
@@ -696,7 +318,7 @@
         <!--Upper View Controller-->
         <scene sceneID="5gy-rV-tFN">
             <objects>
-                <viewController id="aNY-CL-GYs" customClass="UpperViewController" customModule="workoutOptionsScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aNY-CL-GYs" customClass="UpperViewController" customModule="finalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QG5-wq-UHO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -704,9 +326,17 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pto-Ng-ItE">
                                 <rect key="frame" x="0.0" y="30" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <color key="textShadowColor" red="0.63866066980000002" green="0.92796543949999999" blue="0.97878631260000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="upper body" id="OnI-0d-kI5">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="ruP-PD-A6x"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="ruP-PD-A6x">
+                                            <connections>
+                                                <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="9c9-4b-PCH"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -745,18 +375,18 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="run-Q2-Rt7"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="YtL-Av-WAY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfk-dN-dEc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5757" y="-927"/>
+            <point key="canvasLocation" x="-378" y="-952"/>
         </scene>
         <!--Lower View Controller-->
         <scene sceneID="n26-iG-QmO">
             <objects>
-                <viewController id="LbS-zV-iN6" customClass="LowerViewController" customModule="workoutOptionsScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LbS-zV-iN6" customClass="LowerViewController" customModule="finalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jWQ-5F-Fg3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -764,9 +394,15 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pIb-Ir-q4E">
                                 <rect key="frame" x="0.0" y="29" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="barTintColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
                                     <navigationItem title="lower body" id="pkW-u9-xOy">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="5AY-Dg-k8r"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="5AY-Dg-k8r">
+                                            <connections>
+                                                <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="hcJ-Rb-sOi"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -805,18 +441,18 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NGf-3Q-Vf3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Hx-Al-AMK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzc-Lt-Xmr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6474" y="-927"/>
+            <point key="canvasLocation" x="416" y="-952"/>
         </scene>
         <!--Core View Controller-->
         <scene sceneID="eoE-8x-Ucs">
             <objects>
-                <viewController id="mAN-Pm-nhH" customClass="CoreViewController" customModule="workoutOptionsScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mAN-Pm-nhH" customClass="CoreViewController" customModule="finalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LVy-LC-VpY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -824,9 +460,14 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="73u-UR-ySE">
                                 <rect key="frame" x="0.0" y="29" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
                                     <navigationItem title="core" id="dju-xs-I2o">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="FUb-L6-duz"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="FUb-L6-duz">
+                                            <connections>
+                                                <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="Vuj-S6-W3A"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -865,22 +506,54 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SQD-lr-Llp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="dv5-FN-iRb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jic-2w-r0S" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7229" y="-927"/>
+            <point key="canvasLocation" x="1201" y="-952"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NLi-a7-JRQ">
+            <objects>
+                <viewController id="q9G-IV-MDn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GDs-3D-mI5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tqU-HP-iXs">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <items>
+                                    <navigationItem title="meditation" id="xK4-Bj-mPN">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="kCi-s1-Ji4"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yPW-su-GIL">
+                                <rect key="frame" x="98" y="139" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Cw6-Cs-SwH"/>
+                        <color key="backgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xs-pb-aqT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1959" y="-944"/>
         </scene>
         <!--workout tracker!-->
         <scene sceneID="TlB-Ha-b9O">
             <objects>
-                <tableViewController id="J1V-Js-Bmd" customClass="TrackerTableViewController" customModule="calendarScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="J1V-Js-Bmd" customClass="TrackerTableViewController" customModule="finalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NtN-AU-iuc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" red="0.84313726430000002" green="0.95686274770000002" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="vCE-GV-IjI">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -906,7 +579,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5NV-hI-urN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6386" y="-105"/>
+            <point key="canvasLocation" x="2172" y="75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="D7v-FT-Ixi">
@@ -924,7 +597,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nzr-FO-Yb1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5669.5652173913049" y="-105.13392857142857"/>
+            <point key="canvasLocation" x="1328" y="75"/>
         </scene>
         <!--Record Workout View Controller-->
         <scene sceneID="7wF-qa-bJL">
@@ -944,15 +617,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7l-BT-mp8">
                                 <rect key="frame" x="115" y="769" width="184" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="record your workout!"/>
-                                <connections>
-                                    <action selector="recordWorkoutButton:" destination="5Ih-iV-HXT" eventType="touchUpInside" id="fC9-0J-gzm"/>
-                                </connections>
+                                <color key="tintColor" red="0.78076222900000003" green="0.83562339029999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="record your workout!">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" title="record your workout!">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="NNx-W7-zHO">
                                 <rect key="frame" x="47" y="217" width="320" height="310"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.80269640180000001" green="0.81186338530000002" blue="0.92297979799999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARw-oZ-jhA">
                                 <rect key="frame" x="47" y="593" width="320" height="128"/>
@@ -963,31 +640,24 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hqA-1p-WGy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.9210113486" green="0.92297979799999996" blue="0.88358601240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="jkd-3v-WAs"/>
-                    <connections>
-                        <outlet property="datePicker" destination="NNx-W7-zHO" id="j4f-3q-RwR"/>
-                        <outlet property="motivationLabel" destination="ARw-oZ-jhA" id="vrv-vj-e5m"/>
-                        <outlet property="workoutLabel" destination="8VS-dr-hxo" id="dyd-kF-PEN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d78-ej-M1k" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7099" y="-105"/>
+            <point key="canvasLocation" x="3139" y="63"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="l2M-Nj-V2B"/>
-        <segue reference="NM1-S4-RFH"/>
-        <segue reference="Ksq-AC-z5m"/>
+        <segue reference="WOh-4g-NXy"/>
+        <segue reference="Vuj-S6-W3A"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="100,000 marine animals ie from getting entangled in plastic yearly." width="1080" height="1080"/>
         <image name="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" width="40" height="27"/>
         <image name="420338-200" width="30" height="30"/>
         <image name="BUBBLES" width="960" height="720"/>
-        <image name="IMG_9611" width="3024" height="4032"/>
         <image name="Lunges" width="1276" height="636"/>
         <image name="Untitled drawing" width="960" height="720"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
