@@ -45,7 +45,11 @@
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="bWr-F5-Yib"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="bWr-F5-Yib">
+                                            <connections>
+                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="37X-Fm-fu7"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -91,7 +95,7 @@
                                         </leftBarButtonItems>
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="Yfb-bb-C4v">
                                             <connections>
-                                                <segue destination="fq3-LO-cfV" kind="presentation" modalPresentationStyle="fullScreen" id="lO6-V5-7eN"/>
+                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="MaL-gF-NAU"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -116,6 +120,7 @@
         <!--JOURNAL-->
         <scene sceneID="8cg-LN-j6m">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="fq3-LO-cfV" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0mj-3K-40I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -136,15 +141,21 @@
                             <outlet property="delegate" destination="fq3-LO-cfV" id="usk-4B-BW9"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="JOURNAL" id="arf-w0-sc3">
+                        <barButtonItem key="leftBarButtonItem" title="back" id="d3G-5W-G45">
+                            <connections>
+                                <segue destination="cWH-EJ-mOt" kind="presentation" modalPresentationStyle="fullScreen" id="ObW-kd-Ice"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="EZY-xc-yjG">
                             <connections>
-                                <segue destination="NME-YG-DNo" kind="show" id="qfy-Bl-Wqc"/>
+                                <segue destination="klM-n6-a7D" kind="show" id="aYA-Ja-bWX"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-b4-c8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2987" y="84"/>
         </scene>
@@ -157,7 +168,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Journal your thoughts here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKX-Ho-fg7">
-                                <rect key="frame" x="102" y="257" width="210" height="21"/>
+                                <rect key="frame" x="103" y="297" width="210" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -169,10 +180,32 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xz-dj-MbN">
+                                <rect key="frame" x="137" y="804" width="142" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="submit your entry!"/>
+                                <connections>
+                                    <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="0U2-1d-7fN"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BUBBLES" translatesAutoresizingMaskIntoConstraints="NO" id="mNL-Wp-gqA">
+                                <rect key="frame" x="0.0" y="119" width="101" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="need help journaling? here are some prompts - bubbles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8a5-kh-A70">
+                                <rect key="frame" x="103" y="134" width="254" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76660371643350067" green="0.96301744041162918" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3iS-x6-cqv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Y1S-IP-hFL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1w-Vk-MDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,7 +216,7 @@
             <objects>
                 <viewController id="NME-YG-DNo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pYM-JW-DOs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Xcs-VC-I1M"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -248,25 +281,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76p-pg-U5T">
-                                <rect key="frame" x="156" y="485" width="103" height="31"/>
+                                <rect key="frame" x="156" y="433" width="103" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Get Started "/>
                                 <connections>
                                     <segue destination="jtE-OB-Ugj" kind="presentation" modalPresentationStyle="fullScreen" id="yb1-m3-oWq"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 4.20.14 PM" translatesAutoresizingMaskIntoConstraints="NO" id="RfT-wz-rb1">
-                                <rect key="frame" x="39" y="252" width="318" height="202"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="100,000 marine animals ie from getting entangled in plastic yearly." translatesAutoresizingMaskIntoConstraints="NO" id="xd3-IB-Wr7">
+                                <rect key="frame" x="-194" y="472" width="805" height="424"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME TO " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSw-Zf-G7O">
-                                <rect key="frame" x="110" y="213" width="194" height="97"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled drawing" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-hY-4zo">
+                                <rect key="frame" x="-314" y="-209" width="1043" height="1170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -314,10 +345,22 @@
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="QgJ-mI-t6d"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="QgJ-mI-t6d">
+                                            <connections>
+                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="xeo-j9-p5h"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9611" translatesAutoresizingMaskIntoConstraints="NO" id="71y-F5-y0R">
+                                <rect key="frame" x="37" y="385" width="340" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozf-IV-MKF">
+                                <rect key="frame" x="47" y="395" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F6N-KP-7RR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -365,7 +408,11 @@
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="5YB-lb-YKE"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="5YB-lb-YKE">
+                                            <connections>
+                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="iIi-O7-24C"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -416,7 +463,11 @@
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="GaP-Vr-Diu"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="GaP-Vr-Diu">
+                                            <connections>
+                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="NM1-S4-RFH"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -543,13 +594,17 @@
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="w5x-sr-XhM"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="420338-200" id="w5x-sr-XhM">
+                                            <connections>
+                                                <segue destination="mhs-tO-itJ" kind="presentation" modalPresentationStyle="fullScreen" id="RL8-5O-v3I"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="huZ-JC-TWy"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.96822148561477661" green="0.94899803400039673" blue="0.88197964429855347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihL-KP-AYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -559,15 +614,21 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="yb1-m3-oWq"/>
-        <segue reference="lO6-V5-7eN"/>
-        <segue reference="bCZ-TU-nWO"/>
+        <segue reference="RL8-5O-v3I"/>
+        <segue reference="zPX-ap-aIV"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="100,000 marine animals ie from getting entangled in plastic yearly." width="1080" height="1080"/>
         <image name="247-2472894_gym-exercise-effort-gymnastics-activity-fit-weight-dumbbell" width="40" height="27"/>
         <image name="420338-200" width="30" height="30"/>
-        <image name="Screen Shot 2022-07-20 at 4.20.14 PM" width="1064" height="480"/>
+        <image name="BUBBLES" width="960" height="720"/>
+        <image name="IMG_9611" width="3024" height="4032"/>
+        <image name="Untitled drawing" width="960" height="720"/>
         <image name="calendar-date-event-month-icon--20" width="30" height="30"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
