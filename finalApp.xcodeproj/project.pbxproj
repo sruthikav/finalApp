@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894573A32889D5DE00A51722 /* TrackerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894573A22889D5DE00A51722 /* TrackerTableViewController.swift */; };
+		894573A52889D61100A51722 /* RecordWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894573A42889D61100A51722 /* RecordWorkoutViewController.swift */; };
 		89A08B2828872A590065A088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A08B2728872A590065A088 /* AppDelegate.swift */; };
 		89A08B2A28872A590065A088 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A08B2928872A590065A088 /* SceneDelegate.swift */; };
 		89A08B2C28872A590065A088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A08B2B28872A590065A088 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		894573A22889D5DE00A51722 /* TrackerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTableViewController.swift; sourceTree = "<group>"; };
+		894573A42889D61100A51722 /* RecordWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWorkoutViewController.swift; sourceTree = "<group>"; };
 		89A08B2428872A590065A088 /* finalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A08B2728872A590065A088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A08B2928872A590065A088 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				89A08B2728872A590065A088 /* AppDelegate.swift */,
 				89A08B2928872A590065A088 /* SceneDelegate.swift */,
 				89A08B2B28872A590065A088 /* ViewController.swift */,
+				894573A22889D5DE00A51722 /* TrackerTableViewController.swift */,
+				894573A42889D61100A51722 /* RecordWorkoutViewController.swift */,
 				89A08B2D28872A590065A088 /* Main.storyboard */,
 				89A08B3328872A5C0065A088 /* Assets.xcassets */,
 				89A08B3528872A5C0065A088 /* LaunchScreen.storyboard */,
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894573A32889D5DE00A51722 /* TrackerTableViewController.swift in Sources */,
 				89A08B3228872A590065A088 /* finalApp.xcdatamodeld in Sources */,
 				89A08B2C28872A590065A088 /* ViewController.swift in Sources */,
 				89A08B2828872A590065A088 /* AppDelegate.swift in Sources */,
 				89A08B2A28872A590065A088 /* SceneDelegate.swift in Sources */,
+				894573A52889D61100A51722 /* RecordWorkoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
