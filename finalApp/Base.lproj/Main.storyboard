@@ -856,7 +856,7 @@
         <!--Add Entry View Controller-->
         <scene sceneID="rdV-1A-XOZ">
             <objects>
-                <viewController id="afJ-hK-3qC" customClass="AddEntryViewController" customModule="journalScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="afJ-hK-3qC" customClass="AddEntryViewController" customModule="finalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4gq-qb-u08">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1040,7 +1040,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="H83-7t-vvr"/>
         <segue reference="Oc2-vP-V1b"/>
         <segue reference="h1n-ct-1h8"/>
         <segue reference="nI5-h7-yWl"/>
